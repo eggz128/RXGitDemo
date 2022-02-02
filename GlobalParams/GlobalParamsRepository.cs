@@ -152,7 +152,7 @@ namespace GlobalParams
                 _cssxpathInfo = new RepoItemInfo(this, "CSSXPath", ".//span[@innertext='CSS/XPath']", "", 30000, null, "833ebf82-4eee-4e1c-ae5c-178791a5fc99");
                 _dynamiccontentInfo = new RepoItemInfo(this, "DynamicContent", ".//span[@innertext='Dynamic Content']", "", 30000, null, "a8fefb24-8639-4dc2-a6ec-083d079a09d9");
                 _formsInfo = new RepoItemInfo(this, "Forms", ".//span[@innertext='Forms']", "", 30000, null, "84af2668-7bb7-4e45-af80-d0925ff165c2");
-                _homeInfo = new RepoItemInfo(this, "Home", ".//span[@innertext='Home']", "", 30000, null, "3d78ff45-bc70-464d-a6fe-16d1176fbe4c");
+                _homeInfo = new RepoItemInfo(this, "Home", ".//span[@innertext='Home1']", "", 30000, null, "3d78ff45-bc70-464d-a6fe-16d1176fbe4c");
             }
 
             /// <summary>

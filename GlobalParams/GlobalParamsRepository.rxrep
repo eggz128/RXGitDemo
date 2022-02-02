@@ -75,7 +75,7 @@ name="GlobalParamsRepository">
 				refimgid="ba2fd0ad-119a-47c5-8f1b-f84ac1336033"
 				robustPath=""
 				searchtimeout="30000ms">
-					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul//span[@innertext='Home']
+					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul//span[@innertext='Home1']
 				</item>
 				<basepath>
 					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul
