@@ -40,6 +40,18 @@ mode="Global">
 			id="d582fa82-28db-4af9-aab2-778f3c924f1b">
 			</arguments>
 		</userrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Hello world"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="2f37ec71-040b-4bea-95cc-7909149cc013">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"

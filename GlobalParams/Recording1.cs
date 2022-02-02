@@ -82,27 +82,29 @@ namespace GlobalParams
             OpenEdgewords();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.BasicHTML' at 23;8.", repo.AutomatedToolsTestSite.SomeUlTag.BasicHTMLInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "User", "Hello world", new RecordItemIndex(1));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.BasicHTML' at 23;8.", repo.AutomatedToolsTestSite.SomeUlTag.BasicHTMLInfo, new RecordItemIndex(2));
             repo.AutomatedToolsTestSite.SomeUlTag.BasicHTML.Click("23;8");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Forms' at 26;9.", repo.AutomatedToolsTestSite.SomeUlTag.FormsInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Forms' at 26;9.", repo.AutomatedToolsTestSite.SomeUlTag.FormsInfo, new RecordItemIndex(3));
             repo.AutomatedToolsTestSite.SomeUlTag.Forms.Click("26;9");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.DynamicContent' at 33;7.", repo.AutomatedToolsTestSite.SomeUlTag.DynamicContentInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.DynamicContent' at 33;7.", repo.AutomatedToolsTestSite.SomeUlTag.DynamicContentInfo, new RecordItemIndex(4));
             repo.AutomatedToolsTestSite.SomeUlTag.DynamicContent.Click("33;7");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.CSSXPath' at 37;10.", repo.AutomatedToolsTestSite.SomeUlTag.CSSXPathInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.CSSXPath' at 37;10.", repo.AutomatedToolsTestSite.SomeUlTag.CSSXPathInfo, new RecordItemIndex(5));
             repo.AutomatedToolsTestSite.SomeUlTag.CSSXPath.Click("37;10");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Home' at 31;12.", repo.AutomatedToolsTestSite.SomeUlTag.HomeInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Home' at 31;12.", repo.AutomatedToolsTestSite.SomeUlTag.HomeInfo, new RecordItemIndex(6));
             repo.AutomatedToolsTestSite.SomeUlTag.Home.Click("31;12");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'AutomatedToolsTestSite'.", repo.AutomatedToolsTestSite.SelfInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'AutomatedToolsTestSite'.", repo.AutomatedToolsTestSite.SelfInfo, new RecordItemIndex(7));
             Host.Current.CloseApplication(repo.AutomatedToolsTestSite.Self, new Duration(0));
             Delay.Milliseconds(0);
             
