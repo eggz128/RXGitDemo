@@ -1,4 +1,5 @@
-﻿<repository
+<?xml version="1.0" encoding="utf-8"?>
+<repository
 id="9e945c9b-89b5-46a7-95cf-3f60b4c123a5"
 name="GlobalParamsRepository">
 	<codegen
@@ -41,7 +42,7 @@ name="GlobalParamsRepository">
 				addcaps="unknown,webelement,spantag"
 				capname="spantag"
 				id="833ebf82-4eee-4e1c-ae5c-178791a5fc99"
-				name="CSSXPath"
+				name="CSSXPathLink"
 				refimgid="9b740ec0-a80b-4d80-b671-7cda0c764564"
 				robustPath=""
 				searchtimeout="30000ms">

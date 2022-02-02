@@ -4,12 +4,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 10.1.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalParams", "GlobalParams\GlobalParams.csproj", "{45ECFF7E-B860-413E-9EE1-30DB6A6E2C08}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3AE65B1-478D-4002-B0DB-D032B376B27A}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalParams", "GlobalParams\GlobalParams.csproj", "{45ECFF7E-B860-413E-9EE1-30DB6A6E2C08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -96,8 +96,8 @@ namespace GlobalParams
             repo.AutomatedToolsTestSite.SomeUlTag.DynamicContent.Click("33;7");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.CSSXPath' at 37;10.", repo.AutomatedToolsTestSite.SomeUlTag.CSSXPathInfo, new RecordItemIndex(5));
-            repo.AutomatedToolsTestSite.SomeUlTag.CSSXPath.Click("37;10");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.CSSXPathLink' at 37;10.", repo.AutomatedToolsTestSite.SomeUlTag.CSSXPathLinkInfo, new RecordItemIndex(5));
+            repo.AutomatedToolsTestSite.SomeUlTag.CSSXPathLink.Click("37;10");
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.SomeUlTag.Home' at 31;12.", repo.AutomatedToolsTestSite.SomeUlTag.HomeInfo, new RecordItemIndex(6));
