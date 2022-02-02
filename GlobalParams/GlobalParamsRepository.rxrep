@@ -1,0 +1,108 @@
+﻿<repository
+id="9e945c9b-89b5-46a7-95cf-3f60b4c123a5"
+name="GlobalParamsRepository">
+	<codegen
+	classname="GlobalParamsRepository"
+	namespace="GlobalParams">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="515b2500-81e2-48a0-8c1f-38e7f7747356"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="d0410b5c-e94c-463c-a25c-0bbb61d9e674"
+		isrooted="True"
+		name="AutomatedToolsTestSite"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="ultag"
+			id="527baefa-a513-48e0-8941-d4854c5370bb"
+			isrooted="True"
+			name="SomeUlTag"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="93ff4984-7fa1-45f0-8bd6-9a650b7c5864"
+				name="BasicHTML"
+				refimgid="146394ae-f4d3-4462-9853-1393e074b34f"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul//span[@innertext='Basic HTML']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="833ebf82-4eee-4e1c-ae5c-178791a5fc99"
+				name="CSSXPath"
+				refimgid="9b740ec0-a80b-4d80-b671-7cda0c764564"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul//span[@innertext='CSS/XPath']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a8fefb24-8639-4dc2-a6ec-083d079a09d9"
+				name="DynamicContent"
+				refimgid="f0eca6cf-819b-4d13-92ad-1078adf89c8a"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul//span[@innertext='Dynamic Content']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="84af2668-7bb7-4e45-af80-d0925ff165c2"
+				name="Forms"
+				refimgid="970356c5-6e38-4310-87a1-662c089a6b5a"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul//span[@innertext='Forms']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="3d78ff45-bc70-464d-a6fe-16d1176fbe4c"
+				name="Home"
+				refimgid="ba2fd0ad-119a-47c5-8f1b-f84ac1336033"
+				robustPath=""
+				searchtimeout="30000ms">
+					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul//span[@innertext='Home']
+				</item>
+				<basepath>
+					/dom[@domain&gt;'www.edgewords']//div[#'menu']/ul
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain&gt;'www.edgewords']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
