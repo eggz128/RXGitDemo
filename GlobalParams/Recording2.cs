@@ -81,6 +81,8 @@ namespace GlobalParams
 
             Report.Log(ReportLevel.Info, "User", "Steve", new RecordItemIndex(0));
             
+            Report.Log(ReportLevel.Info, "User", "", new RecordItemIndex(1));
+            
         }
 
 #region Image Feature Data

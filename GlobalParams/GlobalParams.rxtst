@@ -37,6 +37,10 @@
 			id="4ed2da20-3daa-41e9-a3c8-47b2916f7bbe"
 			name="TestCase">
 			</testcase>
+			<teardown
+			id="70ffa021-84b0-4e2d-a649-d1def4d3eaff"
+			name="teardown">
+			</teardown>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -85,6 +89,10 @@
 						name="Recording2">
 						</testmodule>
 					</testcase>
+					<teardown
+					id="70ffa021-84b0-4e2d-a649-d1def4d3eaff"
+					name="teardown">
+					</teardown>
 				</testcase>
 			</testsuite>
 		</childhierarchy>

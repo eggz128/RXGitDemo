@@ -37,6 +37,18 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</loggingrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="153f226f-e4ed-4723-a098-9df8e3c6fca9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="9e945c9b-89b5-46a7-95cf-3f60b4c123a5"
