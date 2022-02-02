@@ -8,6 +8,12 @@
 			ref="a87199f3-751e-4b83-abb6-9bd9bf67a77c"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="0b249ca1-3b34-4418-bb13-47b9c2da9124"
+			name="Recording2"
+			ref="09b036b4-afc7-4878-9db5-0dc989137061"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="1a09b455-0509-47f2-813c-307dd8964e76"
 			name="GlobalParams"
@@ -25,6 +31,10 @@
 			</testcase>
 			<testcase
 			id="34344c84-17c1-4e81-bf18-5df9ed10912c"
+			name="TestCase">
+			</testcase>
+			<testcase
+			id="4ed2da20-3daa-41e9-a3c8-47b2916f7bbe"
 			name="TestCase">
 			</testcase>
 			<testsuite
@@ -67,6 +77,14 @@
 						name="Recording1">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="4ed2da20-3daa-41e9-a3c8-47b2916f7bbe"
+					name="TestCase">
+						<testmodule
+						id="0b249ca1-3b34-4418-bb13-47b9c2da9124"
+						name="Recording2">
+						</testmodule>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -82,6 +100,9 @@
 			</testcontainer>
 			<testcontainer
 			id="34344c84-17c1-4e81-bf18-5df9ed10912c">
+			</testcontainer>
+			<testcontainer
+			id="4ed2da20-3daa-41e9-a3c8-47b2916f7bbe">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
